@@ -23,7 +23,7 @@ This project is a **Music Player** built with **HTML, CSS, and JavaScript**. It 
 
 ## How to Use
 
-1. Clone the repository from: [https://github.com/hemadharshini-k/music-player]
+1. Clone the repository from: [https://github.com/hemadharshini-k/codealpha_task3]
 2. Open the `index.html` file in your browser to use the music player.
 3. Add your own music files to the playlist by updating the audio sources in the code.
 
