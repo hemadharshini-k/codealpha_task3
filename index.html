@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://images.sftcdn.net/images/t_app-icon-m/p/334c487c-e22d-11e6-8e3d-d80620cdfe35/3170702851/music-player-mp3-player-logo">
+</head>
+<body>
+   
+     <div class="music-player">
+        <h1 class="head"> Music Player</h1>
+        <div class="cover">
+            <img id="cover" src="https://i1.sndcdn.com/artworks-Qbp9zR37gUOvDf5b-tGhxiA-t500x500.jpg" alt="Album Cover">
+        </div>
+        <div class="song-info">
+            <h2 id="title">Die with a Smile</h2>
+            <h3 id="artist">Artist Name</h3>
+        </div>
+       
+        <audio id="audio" src="diewith a smile.mp3"></audio>
+
+        <div class="controls">
+            <button id="prev" class="control-btn">⏮️</button>
+            <button id="play" class="control-btn">▶️</button>
+            <button id="next" class="control-btn">⏭️</button>
+        </div>
+        <div class="progress-container">
+            <input type="range" id="progress" value="0" max="100">
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
